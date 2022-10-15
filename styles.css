@@ -10,8 +10,8 @@ body{
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('Vimmi.jpeg');
-    background-size:auto;
+    background: url('Vimmi.jpg');
+    background-size:cover;
     position:relative;
 }
 /* text css above hero image*/
