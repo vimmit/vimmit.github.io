@@ -7,55 +7,69 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    
+    <div w3-include-html="nav.html"></div>
     <title align="center">Portfolio Page</title>
-    <h1>Vimmi's Portfolio</h1>
+    
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-        <div class="container">
-            <a class="navbar-brand" href="#">Vimmi</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                
-            </div>
-        </div>
-    </nav>
   
-  <!-- main banner -->
-    <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Hi, My name is Vimmi. </h2>
-                <p class="hero_desc">I am a homemaker and a student at MIT coding program. I am learning web development using MERN stack. I am currently learning HTML, CSS and Javascript.</p>
-            </div>
-            </div>
+   
+    
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+        <a class="navbar-brand" href="#">Vimmi's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+           
+       
+          </ul>
+          
         </div>
-    </section>
+      </nav>
   
-    <p>Hi, My name is Vimmi. I am a homemaker and a student at MIT coding program. I am learning web development using MERN stack.</p>
-    <p>I am currently learning HTML, CSS and Javascript.</p><br>
-    <h3>My Projects</h3>
-<a href="https://vimmit.github.io/PacMen-game/">Pacmen game</a><br>
-<a href="https://vimmit.github.io/Eye-exercise/">Eye-exercise</a><br>
-<a href="https://vimmit.github.io/Real-Time-Bus-Tracker">Real time bus tracker</a>
+  
+  
+<div class="content">
+  
+    <div class = "intro" >
+        <h4 class="heading">Introduction</h4>
+        <p>Hi, My name is Vimmi. I am a student at MIT coding program. I am learning web development using MERN stack.</p>
+        <p>I graduated with a Masters degree in Computer Science from Texas State University, San Marcos in 2017. I have worked as a software engineer for more than 3 years. I am currently learning HTML, CSS and Javascript.<br>
+        I have worked at Banker's Toolbox in Austin, Texas for a year where I tested web applications, did bug fixing of code written in Visual Basic and SQL. I also learnt about 
+       MVC architecture used to build ASP.net web applications. I automated a testing process in powershell. I also learnt about TDD (Test driven development).
+      <br>
+      I started my career in 2005 in a startup company called Algorism Softech pvt. ltd. situated in Haryana, India. I learnt and worked on Business Objects reports, ASP, Javascript, HTML, CSS. The 
+    front end of the reports was made using ASP, Javascript, HTML, CSS. I also wrote SQL queries to retrieve data from database. I made utilities in C#.net to automate some processes.
+   I created and maintained Business objects reports for Pfizer pharmaceuticals.
+   <br>Then, I worked at Infosys for 1 year where I worked on a project to be deployed on handheld devices in Tesco retail stores in Europe. This software was built using .net compact framework. 
+  I worked on the web services and exception handling module which are part of business layer and data layer. I also created some triggers and stored procedures in SQL. I also tested some modules and logged the bugs in the bug tracker.<br>
+ Currently, I am learning ES6 version of Javascript, arrow functions, promises etc. I enjoy coding challenges and pay attention to detail. I am hardworking and try to accomplish my goals.</p><br>
+        <p>My GitHub username is:  Vimmit<br>
+        <u>Linkedin:</u> https://www.linkedin.com/in/vimmi-taneja-719650b8/ </p>
+        <p>Best way to contact me is by email.<br>
+         Email id:  vimmigujral@gmail.com</p>
+      </div>
+  
+    <div class="picture">
+      <img src="Vimmi.jpg">
+    </div>
+        
+    
+</div>
+
     <!--<img src="college_student.jpg" alt="Myself">-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 
